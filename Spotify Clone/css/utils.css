@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap");
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.Nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.Ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}

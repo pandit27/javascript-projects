@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(243, 224, 189);
+  box-sizing: border-box;
+}
+
+nav {
+  /* background-color: aqua; */
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  /* width: 100vw; */
+}
+
+nav ul {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  width: 100vw;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 2rem;
+  padding: 4px 4px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  /* color: white; */
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.logo {
+  width: 9rem;
+  padding-top: 6px;
+}
+
+.info {
+  color: red;
+  background-color: yellow;
+}
+
+.songSection {
+  background: url(/images/cover1.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto auto;
+  margin-top: 4vh;
+  height: 70vh;
+  width: 60rem;
+}
+
+.song {
+  display: flex;
+  padding: 8px 1rem;
+}
+
+.song p {
+  font-size: 1rem;
+  padding: 18px 14px;
+}
+
+.song img {
+  /* border: 1px solid white; */
+  /* border-radius: 90px;  */
+  width: 4rem;
+}
+
+.imgRound {
+  filter: grayscale(100%);
+  border: 1px solid white;
+  border-radius: 90px;
+}
+
+.playSong {
+  background-color: white;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.pauseSong {
+  width: 4rem;
+  background-color: white;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.buttons {
+  background-color: rgb(241, 229, 229);
+  height: 5.8rem;
+  width: 62.5vw;
+  margin: auto auto;
+}
+
+.buttons input {
+  width: 60vw;
+  /* margin: auto auto; */
+  /* padding-left: 1rem; */
+  margin-left: 12px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60rem;
+  gap: 2rem;
+}
+
+.btn img {
+  display: flex;
+  justify-content: center;
+  width: 2rem;
+  padding: 1rem 0;
+  cursor: pointer;
+}
