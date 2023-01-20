@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/images/bg2.png") no-repeat;
+  background-size: 100vw 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.scoreContainer {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto auto;
+  width: 50vw;
+  height: 50vh;
+}
+
+.dino {
+  background: url("/images/dino.png") no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  bottom: 0vh;
+  left: 35vw;
+  right: 100vw;
+  padding-top: 1rem;
+}
+
+.dinoUp {
+  animation: dinoUp 1s linear;
+}
+@keyframes dinoUp {
+  0% {
+    bottom: 10vh;
+  }
+  25% {
+    bottom: 25vh;
+  }
+  50% {
+    bottom: 30vh;
+  }
+  100% {
+    bottom: 40vh;
+  }
+}
+
+.cactus {
+  background: url("/images/cactus.png") no-repeat;
+  background-size: contain;
+  width: 6rem;
+  height: 7rem;
+  position: absolute;
+  left: 10vw;
+  bottom: 0vh;
+  padding-bottom: 18px;
+  animation: cacAnim 4s linear infinite;
+}
+
+@keyframes cacAnim {
+  0% {
+    left: 100vw;
+  }
+  25% {
+    left: 75vw;
+  }
+  50% {
+    left: 50vw;
+  }
+  75% {
+    left: 25vw;
+  }
+  100% {
+    left: -10vw;
+  }
+}
