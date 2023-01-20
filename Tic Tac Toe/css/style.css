@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://cdn.pixabay.com/photo/2021/05/06/14/51/gamepad-6233583_1280.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.container{
+    display: flex;
+
+}
+
+.box {
+  background-color: aquamarine;
+  border: 4px solid rgb(255, 0, 183);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  /* gap: 2rem; */
+  height: 30.4rem;
+  width: 36.5rem;
+  margin-top: 8rem;
+  margin-left: 26rem;
+}
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+  background-color: white;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 90px;
+  height: 10rem;
+  width: 12rem;
+}
+
+.b1:hover,
+.b2:hover,
+.b3:hover,
+.b4:hover,
+.b5:hover,
+.b6:hover,
+.b7:hover,
+.b8:hover,
+.b9:hover {
+  background-color: rgb(252, 239, 250);
+  cursor: pointer;
+}
+
+.info{
+    border: 4px solid aqua;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    height: fit-content;
+    width: 20rem;
+}
+
+.result{
+    background-color: white;
+    border-top: 2px solid purple;
+    /* border-left: 2px solid purple; */
+    /* border-right: 2px solid purple; */
+    color: rgb(255, 0, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace, serif;
+    font-size: 30px;
+    height: 4rem;
+}
+
+.turnDisplay{
+    background-color: white;
+    /* border-top: 2px solid purple; */
+    /* border-left: 2px solid purple; */
+    /* border-right: 2px solid purple; */
+    color: rgb(255, 0, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace, serif;
+    font-size: 30px;
+    height: 4rem;
+}
+
+.won{
+    
+}
+
+.wonAnimation{
+    background: url("https://cdn.pixabay.com/photo/2014/04/02/14/06/ribbons-306198_1280.png");
+    background-size: contain;
+    height: 14rem;
+    width: 14rem;
+    position: relative;
+    bottom: 30rem;
+    left: 4rem;
+}
+
+.reset{
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 4px 4px;
+    position: relative;
+    left: 70%;
+    top: 6rem;
+}
+
+.reset:hover{
+    cursor: pointer;
+}
