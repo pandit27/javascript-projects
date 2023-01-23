@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://wallpaperaccess.com/full/8552475.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+
+.board{
+    /* background: linear-gradient(pink, rgb(163, 241, 251)); */
+    border: 2px solid black;
+    /* width: 40vw;
+    height: 70vh;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
