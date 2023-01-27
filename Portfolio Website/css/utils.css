@@ -1,0 +1,76 @@
+.btn1 {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 4px 10px;
+}
+
+.btn1:hover {
+  background-color: darkmagenta;
+  color: white;
+}
+
+.btn1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.m-left-16 {
+  margin-left: 16px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f40 {
+  font-size: 40px;
+}
+
+.f50 {
+  font-size: 50px;
+}
+
+.f60 {
+  font-size: 60px;
+}
+
+.f70 {
+  font-size: 70px;
+}
+
+.f80 {
+  font-size: 80px;
+}
+
+.f-darkblue {
+  color: rgb(12, 12, 119);
+}
+
+.f-red {
+  color: red;
+}
+
+.f-blue {
+  color: blue;
+}
+
+.f-yellow {
+  color: yellow;
+}
+
+.f-pink {
+  color: pink;
+}
+
+.f-green {
+  color: green;
+}

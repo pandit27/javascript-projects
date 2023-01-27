@@ -1,0 +1,9 @@
+.services-content {
+  background-color: rgb(255, 186, 186);
+  /* color: white; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

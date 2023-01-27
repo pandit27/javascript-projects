@@ -1,0 +1,14 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-left: 8rem;
+}
+
+.row1 {
+  /* display: flex; */
+  /* flex-direction: row; */
+  width: 80%;
+}

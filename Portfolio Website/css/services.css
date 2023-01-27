@@ -1,0 +1,23 @@
+.services-container {
+  background-color: rgb(123, 161, 226);
+  height: 200vh;
+  width: 100vw;
+}
+
+.services-container img {
+  height: 28vh;
+}
+
+.btn-hire {
+  padding: 4px 14px;
+  /* border: none; */
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-hire:hover {
+  background-color: white;
+  color: black;
+}
