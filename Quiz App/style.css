@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Prompt', sans-serif;
+    width: 40vw;
+    height: 60vh;
+    text-align: center;
+    box-shadow: 1px 4px 10px  gray;
+}
+
+.question-container{
+    /* background-color: white; */
+    padding: 10px 10px;
+}
+
+.question-container h2{
+   margin-bottom: 8px;
+}
+
+.question-container ul li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.question-container ul li label{
+    font-size: 18px;
+    padding: 4px 6px;
+}
+
+.question-container ul li input:hover{
+    cursor: pointer;
+}
+
+.submit{
+    cursor: pointer;
+}

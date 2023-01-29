@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Physics Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="main-container">
+        <!-- question container -->
+      <div class="question-container">
+        <!-- question -->
+        <h2 class="question">This is a question</h2>
+        <ul>
+            <!-- option 1 -->
+            <li>
+                <input type="radio" name="answer" id="a1" class="uncheck"/>
+                <label for="" class="o1 option">Option 1</label>
+            </li>
+            <!-- option 2 -->
+            <li>
+                <input type="radio" name="answer" id="a2" class="uncheck"/>
+                <label for="" class="o2 option">Option 2</label>
+            </li>
+            <!-- option 3 -->
+            <li>
+                <input type="radio" name="answer" id="a3" class="uncheck"/>
+                <label for="" class="o3 option">Option 3</label>
+            </li>
+            <!-- option 4 -->
+          <li>
+            <input type="radio" name="answer" id="a4" class="uncheck"/>
+            <label for="" class="o4 option">Option 4</label>
+          </li>
+          <input type="submit" value="Submit" class="submit">
+        </ul>
+      </div>
+      <!-- score container -->
+      <div class="score-container">
+        <h3>Your score is: </h3>
+        <p></p>
+        <button>Play Again</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
