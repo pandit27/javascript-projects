@@ -54,5 +54,31 @@ body{
 }
 
 .submit{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px 4px;
     cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(23, 176, 23);
+}
+
+.play{
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+.play:hover{
+    background-color: rgb(188, 37, 37);
 }
