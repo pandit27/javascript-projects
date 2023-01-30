@@ -117,3 +117,7 @@ submit.addEventListener("click", () => {
 const displayScore = () => {
   return score;
 };
+
+document.querySelector(".play").addEventListener("click", () => {
+  location.reload();
+})
