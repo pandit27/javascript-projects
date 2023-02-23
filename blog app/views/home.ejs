@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+    <h1>Home</h1>
+    <p>
+        <%= home %>
+    </p>
+
+    <% for(let i=0; i < blogs.length; i++){ %>
+        <h1>
+            <%= blogs[i].title %>
+        </h1>
+        <p>
+            <%= blogs[i].post %>
+        </p>
+        <% } %>
+
+            <%- include('partials/footer.ejs') %>

@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<%- include('partials/header.ejs')%>
+    <h1>Compose</h1>
+    <form class="form-group" action="/compose" method="post">
+        <label for="title">Title</label>
+        <br>
+        <input class="form-control" type="text" name="$title" id="title" placeholder="title">
+        <br>
+        <label for="post">Post</label>
+        <br>
+        <textarea class="form-control" name="$post" id="post" cols="50" rows="6" placeholder="write your post"></textarea>
+        <br>
+        <input class="btn btn-primary" type="submit" value="Publish">
+    </form>
