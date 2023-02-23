@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <h3>Today is <%= $day %>
+        </h3>
+
+        <strong style="color: red">TODO LIST</strong>
+        <ul>
+            <div class="box">
+                <input type="checkbox" class="mycheckbox">
+                <li>Learn Node js</li>
+            </div>
+            <div class="box">
+                <input type="checkbox" class="mycheckbox">
+                <li>Learn Express</li>
+            </div>
+            <div class="box">
+                <input type="checkbox" class="mycheckbox">
+                <li>Learn mySQL</li>
+            </div>
+            <div class="box">
+                <input type="checkbox" class="mycheckbox">
+                <li>Learn typescript</li>
+            </div>
+
+            <% for(let i=0; i < listItems.length; i++) {%>
+                <li>
+                    <div class="box">
+                        <% if(listItems[i] !== ""){ %>
+                        <input type="checkbox" class="mycheckbox">
+                        <%= listItems[i] %>
+                          <%  } %>
+                    </div>
+                </li>
+                <% } %>
+        </ul>
+        <form action="/" method="post">
+            <input type="text" name="newItem" id="newItem" placeholder="new item">
+            <br>
+            <input type="submit" class="block uppercase mx-auto shadow bg-indigo-800 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded mt-2 cursor-pointer" value="add item">
+        </form>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
